@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mainpage </title>
+    <!-- web title  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Quicksand" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <!--body section start  -->
+
+    <div class="topnav" id="myTopnav">
+
+        <a href="../mainpage/mainpage.html">Home</a>
+        <a href="../delivery/delivery.html">Delivery</a>
+        <a href="../menu/menu.html">Menu</a>
+        <a href="../contact/contact.html">Contact</a>
+        <a href="../story/story.html">Story</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- this part of javascript courtesy of W3school https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+<!--First section  -->
+    <section class="firstsection">
+        <heater class="showcase">
+            <h1>Poke Box</h1>
+            <p><b>We are committed to using ingredients that are superior in freshness, flavour and above all, nutrition.</b></p>
+        </heater>
+    </section>
+
+    <br>
+<!--second section   -->
+    <div class="intros ">
+
+        <div>
+            <h2>Welcome</h2>
+            <p>Welcome to Poke Box!
+                <br> The Poke Box was founded from a genuine urge to share a meal that is guilt free and exciting to eat. We believe you should always look forward to a meal and feel great about what you eat. Poke Box is excited to introduce our new, fresh, exciting salad menu. Here is what we prepared specially for you! I hope you enjoy your meal!</p>
+            <a href="../menu/menu.html">
+                <button>Menu ></button>
+            </a>
+        </div>
+
+        <div>
+            <img src="../resized-images/yogurt.jpg" alt="Italian Trulli" style="box-shadow: 0 0 50px 5px rgba(104, 104, 104, 0.3); border-radius: 50px;">
+        </div>
+
+        <div>
+            <img src="../resized-images/delivery.jpg" alt="Italian Trulli" style="box-shadow: 0 0 45px 5px rgba(104, 104, 104, 0.4); border-radius: 50px;">
+        </div>
+
+        <div>
+            <h2>Odering Now</h2>
+            <p> We have added cold &amp; hot, popular bowls,and new salads, making sure there are enough catering options for any occasion. Need it now? No problem ! Booking online for any catering inquiries. We will do everything we can to help you have a good, healthy meal.</p>
+            <a href="../delivery/delivery.html">
+                <button>Delivery > </button>
+            </a>
+        </div>
+
+    </div>
+
+    <br>
+
+    <!--third section: boxes  -->
+    <section class="boxes">
+        <div class="box">
+            <div class="icon"> <i class="fas fa-utensils fa-2x"></i> </div>
+            <h3>Food</h3>
+            <p><b>Freshness, Flavour, Nutrition</b></p>
+        </div>
+
+        <div class="box">
+            <div class="icon"> <i class="fas fa-fish fa-2x"></i> </div>
+            <h3>Fish</h3>
+            <p><b>Selected daily tuna and salmon</b></p>
+        </div>
+
+        <div class="box">
+            <div class="icon"> <i class="far fa-surprise fa-2x"></i> </div>
+            <h3>Rice</h3>
+            <p><b>100% made in Canada</b></p>
+        </div>
+
+        <div class="box">
+            <div class="icon"> <i class="fas fa-cookie-bite fa-2x"></i> </div>
+            <h3>Calories</h3>
+            <p><b>30% lower than ordinary meal</b></p>
+        </div>
+    </section>
+    <br>
+
+    <section class="secondtsection">
+        <div class="br">
+            <h2>"Love well<br>Sleep well<br>Dined well.” </h2>
+        </div>
+    </section>
+    <br>
+    <br>
+    
+    <!--fotter start  -->
+    <section class="blocks">
+
+        <div class="block">
+            <h3>Location</h3>
+            <p>255 King St N#3
+                <br> Waterloo, ON N2J 4V2
+                <br> phone : 54-0363</p>
+        </div>
+
+        <div class="block">
+            <p> 36 Toronto St, Toronto,
+                <br>ON M5C 2C5
+                <br> phone : 954-6654</p>
+        </div>
+
+        <div class="block">
+            <h3>Hours</h3>
+            <p>Monday - Friday
+                <br>11.AM-10.PM</p>
+        </div>
+        <div class="block">
+            <p> Saturday - Sunday
+                <br>11.AM-9.PM </p>
+            <a href="https://www.facebook.com/PokeBoxTO/"> <i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.instagram.com/thepokebox/"> <i class="fab fa-instagram fa-2x"></i></a>
+            <a href="../contact/contact.html"> <i class="fas fa-envelope fa-2x"></i> </a>
+
+        </div>
+    </section>
+
+    <div id="footer">
+        All images courtesy of <a href="https://unsplash.com/">Unsplash</a>
+    </div>
+
+</body>
+
+</html>
